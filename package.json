@@ -1,7 +1,7 @@
 {
-  "name": "soundcove",
+  "name": "server",
   "version": "0.0.0",
-  "description": "A DJ'ing platform.",
+  "description": "The server for SoundCove.",
   "main": "index.js",
   "repository": {
     "type": "git",
