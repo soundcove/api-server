@@ -1,0 +1,21 @@
+{
+  "name": "soundcove",
+  "version": "0.0.0",
+  "description": "A DJ'ing platform.",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/soundcove/soundcove.git"
+  },
+  "keywords": [
+    "music",
+    "collaberative",
+    "share",
+    "listen"
+  ],
+  "author": "SoundCove Developer Team",
+  "bugs": {
+    "url": "https://github.com/soundcove/soundcove/issues"
+  },
+  "homepage": "https://github.com/soundcove/soundcove#readme"
+}
