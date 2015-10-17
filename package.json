@@ -1,11 +1,11 @@
 {
-  "name": "server",
+  "name": "api-server",
   "version": "0.0.0",
-  "description": "The server for SoundCove.",
+  "description": "The WebSocket-based API server.",
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/soundcove/soundcove.git"
+    "url": "git+https://github.com/soundcove/api-server.git"
   },
   "keywords": [
     "music",
@@ -15,14 +15,10 @@
   ],
   "author": "SoundCove Developer Team",
   "bugs": {
-    "url": "https://github.com/soundcove/soundcove/issues"
+    "url": "https://github.com/soundcove/api-server/issues"
   },
-  "homepage": "https://github.com/soundcove/soundcove#readme",
+  "homepage": "https://github.com/soundcove",
   "engines": {
-    "node": "^4.1.0",
-    "npm": "^2.0.0"
-  },
-  "dependencies": {
-    "client": "git://github.com/soundcove/soundcove-client.git"
+    "node": "^4.1.0"
   }
 }
