@@ -14,20 +14,25 @@ client.use('method');
 client.on('authenticate', function(data) {
   //Todo - Check with MYSQL Server
   //Change members is temporary for testing, switching to REDIS.
+  //Get client id
     let user = members[client.id] = {};
     user.name = data.username;
     user.password = data.password;
     //Create tokenID to distinguish user
-    var success = {
+    let success = {
       'method' : 'success',
-      'tokenID' : 'test'
+      'tokenID' : ''
     }
+    //Let's client know it's logged in.
     Client.prototype.write(JSON.stringify(succes));
   });
-client.on('success', function(data)){
 
-}
+  //Now whenever client sends anything, if it doesn't equal tokenID, the API-Server will end socket with authentication error.
 
+
+  client.on('disconnect', function(data)){
+    //delete client from REDIS server
+  }
 });
 
 app.listen(8080);
