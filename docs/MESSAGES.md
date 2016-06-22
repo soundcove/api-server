@@ -12,7 +12,7 @@ An example of a message would look like this:
 ### Method
 The method describes the message's purpose.  For requests you can describe the action with `<namespace>/<action>` (i.e. `user/register` or `session/destroy`), and for server responses you have `success` and `error` methods.
 
-See [Methods][METHODS.md] for a list of methods and their options.
+See [Methods](METHODS.md) for a list of methods and their options.
 
 ### Payload
 The payload is an object of data you supply to for the method request. For example, if you did `user/login` it would be the credentials.  In a reply, the payload would be the response data.
